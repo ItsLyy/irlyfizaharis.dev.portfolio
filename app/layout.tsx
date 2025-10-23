@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
+import BgGrid from "./_components/general/bg-grid"
 import "./globals.css";
 
 const robotoMono = Roboto_Mono({
@@ -23,6 +24,7 @@ export default function RootLayout({
         className={`${robotoMono.className} bg-app-100 text-zinc-200 antialiased`}
       >
         {children}
+        <BgGrid />
       </body>
     </html>
   );

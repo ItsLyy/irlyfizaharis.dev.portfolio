@@ -1,4 +1,3 @@
-import FooterMain from "./_components/general/footer";
 import NavbarMain from "./_components/general/navbar";
 
 export default function MainLayout({
@@ -7,8 +6,7 @@ export default function MainLayout({
   return (
     <>
       <NavbarMain />
-      <main className="p-2 min-h-[100svh]">{children}</main>
-      <FooterMain />
+      <main className="box-border h-svh flex flex-col">{children}</main>
     </>
   );
 }

@@ -32,7 +32,7 @@ export default function MenuNavbar() {
   const pathname = usePathname();
   return (
     <div className="flex flex-1 justify-end lg:justify-center">
-      <nav className="bg-app-300 flex w-fit flex-col gap-1 rounded-full border-1 border-zinc-500/20 p-1 text-zinc-500 lg:flex-row">
+      <nav className="bg-app-300 flex w-fit pointer-events-auto flex-col gap-1 rounded-full border-1 border-zinc-500/20 p-1 text-zinc-500 lg:flex-row">
         {MenuItems.map((item) => {
           const Icon = item.icon;
           const isActive = item.link === pathname;
