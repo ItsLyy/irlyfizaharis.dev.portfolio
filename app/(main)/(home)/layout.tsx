@@ -1,4 +1,5 @@
 import Profile from "./_components/general/profile";
+import MouseScrollAnimation from "@/app/_components/ui/mouse-scroll-animation"
 
 export default function HomeLayout({
   children,
