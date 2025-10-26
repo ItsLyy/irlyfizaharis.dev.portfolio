@@ -18,12 +18,12 @@ export default function Profile() {
       </div>
       <div className="h-full w-44 flex flex-col gap-2">
         <div className="grid grid-cols-4 gap-2 w-fit">
-          <CardMediaSocial icon={EnvelopeSimple} link="/" />
+          <CardMediaSocial icon={EnvelopeSimple} link="mailto:irly.fizaharis.dev@gmail.com?subject=SUBJECT&body=BODY" />
           <CardMediaSocial icon={LinkedinLogo} link="https://www.linkedin.com/in/irly-fizaharis-aa8896298/" />
-          <CardMediaSocial icon={InstagramLogo} link="https://github.com/ItsLyy" />
+          <CardMediaSocial icon={InstagramLogo} link="https://www.instagram.com/lyynoir/" />
           <CardMediaSocial icon={GithubLogo} link="https://github.com/ItsLyy" />
         </div>
-        <button className="rounded-md cursor-pointer w-full justify-center pl-2 pr-3 py-2 bg-zinc-100 text-zinc-900 font-semibold text-sm flex items-center gap-2"><ReadCvLogo className="size-5 p-0" />Download CV</button>
+        <a target="_blank" href="/irlyfizaharis-cv.pdf" className="rounded-md cursor-pointer w-full justify-center pl-2 pr-3 py-2 bg-zinc-100 text-zinc-900 font-semibold text-sm flex items-center gap-2"><ReadCvLogo className="size-5 p-0" />Download CV</a>
       </div>
     </aside>
   );

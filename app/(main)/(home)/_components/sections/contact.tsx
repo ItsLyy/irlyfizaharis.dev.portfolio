@@ -12,10 +12,10 @@ const ContactSection = forwardRef(function ContactSection(props, ref) {
         </p>
       </div>
       <div className="flex gap-2">
-        <CardMediaSocial icon={EnvelopeSimple} />
-        <CardMediaSocial icon={LinkedinLogo} />
-        <CardMediaSocial icon={InstagramLogo} />
-        <CardMediaSocial icon={GithubLogo} />
+        <CardMediaSocial icon={EnvelopeSimple} link="mailto:irly.fizaharis.dev@gmail.com?subject=SUBJECT&body=BODY" />
+        <CardMediaSocial icon={LinkedinLogo} link="https://www.linkedin.com/in/irly-fizaharis-aa8896298/" />
+        <CardMediaSocial icon={InstagramLogo} link="https://www.instagram.com/lyynoir/" />
+        <CardMediaSocial icon={GithubLogo} link="https://github.com/ItsLyy" />
       </div>
       <div>
         <form>
