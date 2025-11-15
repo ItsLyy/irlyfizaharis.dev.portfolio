@@ -9,7 +9,6 @@ This project is a personal portfolio website designed to showcase a developer’
 #### 🚀 Tech Stack
 
 - Next.js
-- Express.js
 - MongoDB
 - Vercel
 
