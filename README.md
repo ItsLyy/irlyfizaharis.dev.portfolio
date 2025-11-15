@@ -1,4 +1,4 @@
-## 🧑‍💻 Portfolio Website Powered by Next.js, Express.js, and MongoDB
+## 🧑‍💻 Portfolio Website Powered by Next.js.
 
 ### 📖 Overview
 
@@ -9,7 +9,6 @@ This project is a personal portfolio website designed to showcase a developer’
 #### 🚀 Tech Stack
 
 - Next.js
-- MongoDB
 - Vercel
 
 
