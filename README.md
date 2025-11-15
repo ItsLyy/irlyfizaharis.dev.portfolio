@@ -22,5 +22,3 @@ This project is licensed under the **MIT License** — feel free to use and modi
 #### 🙌 Acknowledgements
 
 - [Next.js Documentation](https://nextjs.org/)
-- [Express.js Documentation](https://expressjs.com/)
-- [MongoDB Documentation](https://www.mongodb.com/docs/)
